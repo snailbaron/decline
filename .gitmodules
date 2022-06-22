@@ -1,0 +1,12 @@
+[submodule "deps/SDL"]
+	path = deps/SDL
+	url = https://github.com/libsdl-org/SDL.git
+[submodule "deps/yaml-cpp"]
+	path = deps/yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp.git
+[submodule "deps/tempo"]
+	path = deps/tempo
+	url = ../tempo.git
+[submodule "deps/evening"]
+	path = deps/evening
+	url = ../evening.git
