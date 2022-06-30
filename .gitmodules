@@ -6,7 +6,10 @@
 	url = https://github.com/jbeder/yaml-cpp.git
 [submodule "deps/tempo"]
 	path = deps/tempo
-	url = ../tempo.git
+	url = git@github.com:snailbaron/tempo.git
 [submodule "deps/evening"]
 	path = deps/evening
-	url = ../evening.git
+	url = git@github.com:snailbaron/evening.git
+[submodule "deps/thing"]
+	path = deps/thing
+	url = git@github.com:snailbaron/thing.git

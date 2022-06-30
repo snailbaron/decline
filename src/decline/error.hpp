@@ -17,6 +17,8 @@ concept Streamable = requires (std::ostream& s, T x) { s << x; };
 
 class Error : public std::exception {
 public:
+    Error(SourceLocation location = SourceLocation::current());
+
     template <Streamable T>
     Error& operator<<(T&& value) &
     {
@@ -47,6 +49,8 @@ private:
 
     std::string _message;
 };
+
+void check(bool condition, SourceLocation location = SourceLocation::current());
 
 class SdlError : public std::exception {
 public:
